@@ -2,6 +2,14 @@
 
 This is a collection of Nix flake templates I use in my personal projects.
 
+## Install Nix
+
+```bash
+curl --proto '=https' --tlsv1.2 -sSf -L https://install.determinate.systems/nix | sh -s -- install
+```
+
+See [Nix installer](https://github.com/DeterminateSystems/nix-installer) for more details.
+
 # Usage
 ```bash
 nix flake init -t github:tsirysndr/flake-templates#minimal
