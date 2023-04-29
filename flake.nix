@@ -5,14 +5,29 @@
 
     templates = {
 
+      android = {
+        path = ./android;
+        description = "A template for an Android project";
+      };
+
       bun = {
         path = ./bun;
         description = "A template for a Bun project";
       };
 
+      clojure = {
+        path = ./clojure;
+        description = "A template for a Clojure project";
+      };
+
       deno = {
         path = ./deno;
         description = "A template for a Deno project";
+      };
+
+      elixir = {
+        path = ./elixir;
+        description = "A template for an Elixir project";
       };
 
       gleam = {
@@ -25,6 +40,10 @@
         description = "A template for a Go project";
       };
       
+      haskell = {
+        path = ./haskell;
+        description = "A template for a Haskell project";
+      };
 
       minimal = {
         path = ./minimal;
@@ -44,6 +63,11 @@
       rust = {
         path = ./rust;
         description = "Rust template, using Naersk";
+      };
+
+      scala = {
+        path = ./scala;
+        description = "A template for a Scala project";
       };
 
       zig = {
