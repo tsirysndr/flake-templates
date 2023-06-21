@@ -24,6 +24,7 @@ nix flake init -t github:tsirysndr/flake-templates#minimal
 - [elixir](./elixir) - A template for Elixir projects
 - [gleam](./gleam) - A template for Gleam projects
 - [go](./go) - A template for Go projects
+- [hashi](./hashi) - A template for development environment for Terraform, Packer, and Nomad
 - [haskell](./haskell) - A template for Haskell projects
 - [java](./java) - A template for Java projects
 - [minimal](./minimal) - A minimal template for Nix projects

@@ -45,6 +45,11 @@
         description = "A template for a Haskell project";
       };
 
+      hashi = {
+        path = ./hashi;
+        description = "A Nix-flake-based  development environment for Terraform, Packer, and Nomad";
+      };
+
       minimal = {
         path = ./minimal;
         description = "A minimal template";
