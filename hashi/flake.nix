@@ -3,7 +3,7 @@
     "A Nix-flake-based development environment for Terraform, Packer, and Nomad";
 
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/release-22.11";
+    nixpkgs.url = "github:NixOS/nixpkgs/release-23.05";
     flake-utils.url = "github:numtide/flake-utils";
   };
 
