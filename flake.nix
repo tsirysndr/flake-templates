@@ -55,6 +55,11 @@
         description = "A template for a Janet project";
       };
 
+      java = {
+        path = ./java;
+        description = "A template for a Java project";
+      };
+
       minimal = {
         path = ./minimal;
         description = "A minimal template";
