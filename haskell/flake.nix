@@ -2,7 +2,7 @@
   description = "A Nix-flake-based Haskell development environment";
 
   inputs = {
-    nixpkgs.url = "github:nixos/nixpkgs/release-23.05";
+    nixpkgs.url = "github:nixos/nixpkgs/release-25.05";
     flake-utils.url = "github:numtide/flake-utils";
   };
 
@@ -25,7 +25,7 @@
          ];
          shellHook = ''
          echo "Welcome to the Haskell development environment!"
-         echo "You can now use ghci, cabal, stack, etc."  
+         echo "You can now use ghci, cabal, stack, etc."
          echo "To exit, type exit"
          echo "To enter ghci, type ghci"
          echo "To enter cabal repl, type cabal repl"
