@@ -26,6 +26,7 @@ nix flake init -t github:tsirysndr/flake-templates#minimal
 - [go](./go) - A template for Go projects
 - [hashi](./hashi) - A template for development environment for Terraform, Packer, and Nomad
 - [haskell](./haskell) - A template for Haskell projects
+- [janet](./janet) - A template for Janet projects
 - [java](./java) - A template for Java projects
 - [minimal](./minimal) - A minimal template for Nix projects
 - [node](./node) - A template for Node.js projects

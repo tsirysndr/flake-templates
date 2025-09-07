@@ -39,7 +39,7 @@
         path = ./go;
         description = "A template for a Go project";
       };
-      
+
       haskell = {
         path = ./haskell;
         description = "A template for a Haskell project";
@@ -48,6 +48,11 @@
       hashi = {
         path = ./hashi;
         description = "A Nix-flake-based  development environment for Terraform, Packer, and Nomad";
+      };
+
+      janet = {
+        path = ./janet;
+        description = "A template for a Janet project";
       };
 
       minimal = {
